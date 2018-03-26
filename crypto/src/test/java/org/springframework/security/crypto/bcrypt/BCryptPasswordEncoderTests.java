@@ -10,7 +10,7 @@ public class BCryptPasswordEncoderTests {
     public void matches(){
         BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
         
-        String result = encoder.encode("111111");
+        String result = encoder.encode("password");
         
         System.out.println(result);
         
